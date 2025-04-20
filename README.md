@@ -55,17 +55,32 @@ Contains basic health indicators like age, sex, cholesterol, blood pressure, etc
 | Random Forest          | 78.69%        |
 | XGBoost                | 77.05%        |
 
-### Cross-Validation Scores (Mean ± Std Dev):
 
-- **Logistic Regression**: 83.15% ± 5.13%
-- **Random Forest**: 83.82% ± 2.88%
-- **KNN**: 67.02% ± 4.84%
-- **SVM**: 69.98% ± 2.02%
-- **XGBoost**: 78.21% ± 4.25%
+### 📈 Radar Chart Comparison
+
+![Radar Chart](radar_chart.png)
+---
+
+## 📌 Results & Insights
+
+- Logistic Regression and SVM performed the best with ~80% accuracy.
+- KNN lagged slightly behind, possibly due to sensitivity to scaling and outliers.
+- Random Forest and XGBoost offered solid performance with ensemble robustness.
 
 ---
 
-## 📉 ROC Curves
+## 📎 Future Work
 
-ROC curves were plotted for all models that support probability predictions to visualize model performance across thresholds.
+- Integrate SHAP/LIME for model interpretability
+- Deploy the model via Streamlit or Flask
+- Include real-time prediction using user input
+- Perform feature importance ranking
+
+---
+
+## 🙌 Acknowledgements
+
+- UCI Heart Disease dataset
+- scikit-learn and XGBoost documentation
+- Krish Naik's ML Bootcamp for foundational understanding
 
