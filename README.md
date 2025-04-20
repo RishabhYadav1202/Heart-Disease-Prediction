@@ -58,7 +58,7 @@ Contains basic health indicators like age, sex, cholesterol, blood pressure, etc
 
 ### 📈 Radar Chart Comparison
 
-![Radar Chart]([radar_chart.png](https://github.com/RishabhYadav1202/Heart-Disease-Prediction/blob/main/Images/Radar%20Chart%20for%20Comparison.png?raw=true)
+![Radar Chart](https://github.com/RishabhYadav1202/Heart-Disease-Prediction/blob/main/Images/Radar%20Chart%20for%20Comparison.png?raw=true)
 ---
 
 ## 📌 Results & Insights
